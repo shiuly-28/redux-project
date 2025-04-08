@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "img": "Bid1-min.png",
+        "title": "Top 10 ES6 Features You Must Know",
+        "description": "https://i.ibb.co/VvLNdLL/boy1.png",
+        "courrenBidPrice": "$1.234",
+        "bidCount": "September 15, 2023",
+        "timeLeft": 5
+        
+    },
+    {
+        "id": 2,
+        "img": "Bid2-min.png",
+        "title": "Top 10 ES6 Features You Must Know",
+        "description": "https://i.ibb.co/VvLNdLL/boy1.png",
+        "courrenBidPrice": "$2.324",
+        "bidCount": "September 15, 2023",
+        "timeLeft": 5
+    },
+    {
+        "id": 3,
+        "img": "Bid3-min.png",
+        "title": "Top 10 ES6 Features You Must Know",
+        "description": "https://i.ibb.co/VvLNdLL/boy1.png",
+        "courrenBidPrice": "$2.860",
+        "bidCount": "September 15, 2023",
+        "timeLeft": 5
+    },
+    {
+        "id": 4,
+        "img": "Bid4-min.png",
+        "title": "Top 10 ES6 Features You Must Know",
+        "description": "https://i.ibb.co/VvLNdLL/boy1.png",
+        "courrenBidPrice": "$3.345",
+        "bidCount": "September 15, 2023",
+        "timeLeft": 5
+    },
+    {
+        "id": 5,
+        "img": "Bid5-min.png",
+        "title": "Top 10 ES6 Features You Must Know",
+        "description": "https://i.ibb.co/VvLNdLL/boy1.png",
+        "courrenBidPrice": "$1.45",
+        "bidCount": "September 15, 2023",
+        "timeLeft": 5
+    },
+    {
+         
+        "id": 6,
+        "img": "Bid6-min.png",
+        "title": "Top 10 ES6 Features You Must Know",
+        "description": "https://i.ibb.co/VvLNdLL/boy1.png",
+        "courrenBidPrice": "$2.123",
+        "bidCount": "September 15, 2023",
+        "timeLeft": 5
+    
+    }
+
+]
