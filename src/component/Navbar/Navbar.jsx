@@ -3,12 +3,21 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div>
-            <div>
-                  <div className="navbar w-11/12 mx-auto">
-    <div className="flex-1">
+            
+    <div className="navbar w-11/12 mx-auto bg-base-100 shadow-sm rounded-xl m-5 flex justify-between">
+    <div className="flex">
     <a className="text-3xl"><span className='text-[#003EA4]'>Action</span><span className='text-[#FFD337]'>Gallery</span></a>
-  </div>
-  <div className="flex flex-row gap-3">
+    </div>
+         <div >
+            <ul className='flex gap-10'>
+                <li>Home</li>
+                <li>Action</li>
+                <li>Category</li>
+                <li>How to warks</li>
+            </ul>
+            </div>        
+    <div className="flex flex-row gap-3">
+                              
     <div className="dropdown dropdown-end">
       <button className="btn btn-ghost btn-circle bg-[#EBF0F5]">
       <div className="indicator">
@@ -23,14 +32,14 @@ const Navbar = () => {
         <div className="w-10 rounded-full">
           <img
             alt="Tailwind CSS Navbar component"
-            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+            src="https://i.ibb.co.com/F4PxGLhZ/flower.jpg" />
         </div>
       </div>
      
     </div>
   </div>
             </div>
-          </div>
+          
         </div>
     );
 };
