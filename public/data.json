@@ -2,58 +2,59 @@
     {
         "id": 1,
         "img": "assets/Bid1-min.png",
-        "title": "Top 10 ES6 Features You Must Know",
+        "title": "Vintage Leica M3 Camera",
         "description": "https://i.ibb.co/VvLNdLL/boy1.png",
-        "courrenBidPrice": "$1.234",
-        "bidCount": "September 15, 2023",
-        "timeLeft": 5
+        "courrenBidPrice": "$2,850",
+        "bidsCount": "13",
+        "timeLeft": "2 Days left",
+        "image": "https://i.ibb.co.com/84GXsDX9/Bid1-min.png"
         
     },
     {
         "id": 2,
-        "img": "assets/Bid2-min.png",
-        "title": "Top 10 ES6 Features You Must Know",
+        "title": "1965 Gibson SG Standard Electric Guitar",
         "description": "https://i.ibb.co/VvLNdLL/boy1.png",
-        "courrenBidPrice": "$2.324",
-        "bidCount": "September 15, 2023",
-        "timeLeft": 5
+        "courrenBidPrice": "$2,850",
+        "bidsCount": "13",
+        "timeLeft": "2 Days left",
+        "image": "https://i.ibb.co.com/xqpXyty6/DSC08433.webp"
     },
     {
         "id": 3,
-        "img": "assets/Bid3-min.png",
-        "title": "Top 10 ES6 Features You Must Know",
+        "title": "Original Apple Macintosh 128K (1984)",
         "description": "https://i.ibb.co/VvLNdLL/boy1.png",
-        "courrenBidPrice": "$2.860",
-        "bidCount": "September 15, 2023",
-        "timeLeft": 5
+        "courrenBidPrice": "$2,850",
+        "bidsCount": "13",
+        "timeLeft": "2 Days left",
+        "image": "https://i.ibb.co.com/LwjHsq9/Bid2-min.png"
     },
     {
         "id": 4,
-        "img": "assets/Bid4-min.png",
-        "title": "Top 10 ES6 Features You Must Know",
+        "title": "Rolex Submariner 16610",
         "description": "https://i.ibb.co/VvLNdLL/boy1.png",
-        "courrenBidPrice": "$3.345",
-        "bidCount": "September 15, 2023",
-        "timeLeft": 5
+        "courrenBidPrice": "$2,850",
+        "bidsCount": "13",
+        "timeLeft": "2 Days left",
+        "image": "https://i.ibb.co.com/4L68V58/Bid4-min.png"
     },
     {
         "id": 5,
-        "img": "assets/Bid5-min.png",
-        "title": "Top 10 ES6 Features You Must Know",
+        "title": "First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
         "description": "https://i.ibb.co/VvLNdLL/boy1.png",
-        "courrenBidPrice": "$1.45",
-        "bidCount": "September 15, 2023",
-        "timeLeft": 5
+        "courrenBidPrice": "$2,850",
+        "bidsCount": "13",
+        "timeLeft": "2 Days left",
+        "image": "https://i.ibb.co.com/5XxCdJ98/Bid3-min.png"
     },
     {
          
         "id": 6,
-        "img": "assets/Bid6-min.png",
-        "title": "Top 10 ES6 Features You Must Know",
+        "title": "Mid-Century Modern Eames Lounge Chair",
         "description": "https://i.ibb.co/VvLNdLL/boy1.png",
-        "courrenBidPrice": "$2.123",
-        "bidCount": "September 15, 2023",
-        "timeLeft": 5
+        "courrenBidPrice": "$2,850",
+        "bidsCount": "13",
+        "timeLeft": "2 Days left",
+        "image": "https://i.ibb.co.com/p6RG0hPj/Bid5-min.png"
     
     }
 
