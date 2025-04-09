@@ -1,9 +1,8 @@
 [
     {
         "id": 1,
-        "img": "assets/Bid1-min.png",
         "title": "Vintage Leica M3 Camera",
-        "description": "https://i.ibb.co/VvLNdLL/boy1.png",
+        "description": "",
         "courrenBidPrice": "$2,850",
         "bidsCount": "13",
         "timeLeft": "2 Days left",
@@ -13,7 +12,7 @@
     {
         "id": 2,
         "title": "1965 Gibson SG Standard Electric Guitar",
-        "description": "https://i.ibb.co/VvLNdLL/boy1.png",
+        "description": "",
         "courrenBidPrice": "$2,850",
         "bidsCount": "13",
         "timeLeft": "2 Days left",
