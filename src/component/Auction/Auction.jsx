@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRegHeart } from "react-icons/fa";
+import { FaRegHeart,FaHeart } from "react-icons/fa";
 
 const Auction = ({ auction, handleFavorite, isFavorite }) => {
   return (
@@ -7,7 +7,7 @@ const Auction = ({ auction, handleFavorite, isFavorite }) => {
       <td>
         <div className="flex items-center gap-3">
           <div className="rounded-xl h-12 w-12">
-            <img src={auction.image} alt="item" />
+            <img className='h-12 w-12 rounded-xl' src={auction.image} alt="item" />
           </div>
           <div>
             <div className="font-bold">{auction.title}</div>
@@ -22,7 +22,7 @@ const Auction = ({ auction, handleFavorite, isFavorite }) => {
           disabled={isFavorite}
           className={`btn btn-ghost btn-xs ${isFavorite ? 'cursor-not-allowed text-red-500' : ''}`}
         >
-          <FaRegHeart size={22} />
+          <FaHeart size={22} />
         </button>
       </td>
     </tr>
