@@ -3,7 +3,7 @@ import { FaRegHeart,FaHeart } from "react-icons/fa";
 
 const Auction = ({ auction, handleFavorite, isFavorite }) => {
   return (
-    <tr>
+    <tr className='border-2 border-[#000000]'>
       <td>
         <div className="flex items-center gap-3">
           <div className="rounded-xl h-12 w-12">
@@ -18,9 +18,9 @@ const Auction = ({ auction, handleFavorite, isFavorite }) => {
       <td className="font-bold">{auction.timeLeft}</td>
       <td>
         <button
-          onClick={() => handleFavorite(auction)} // Trigger handleFavorite when clicked
+          onClick={() => handleFavorite(auction)} 
           disabled={isFavorite}
-          className={`btn btn-ghost btn-xs ${isFavorite ? 'cursor-not-allowed text-red-500' : ''}`}
+          className={` ${isFavorite ? 'cursor-not-allowed text-red-500' : ''}`}
         >
           <FaHeart size={22} />
         </button>

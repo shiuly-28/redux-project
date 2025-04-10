@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Auction from '../Auction/Auction';
-import { FaRegHeart, FaTrash } from 'react-icons/fa';
+import { FaRegHeart} from 'react-icons/fa';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { CiCircleRemove } from "react-icons/ci";
 
 const Auctions = () => {
   const [auctions, setAuctions] = useState([]);
@@ -19,14 +20,15 @@ const Auctions = () => {
     const exists = favorites.find(item => item.id === auction.id);
     if (!exists) {
       setFavorites([...favorites, auction]);
-      toast.success(`${auction.title} added to favorites`);
+      toast.success(`🐷 items added to favorites 🏀`)
+        
     }
   };
 
   const removeFavorite = (id) => {
     const updated = favorites.filter(item => item.id !== id);
     setFavorites(updated);
-    toast.warn(`Removed from favorites`);
+    toast.warn(`🐷 items Removed from favorites`);
   };
 
   const total = favorites.reduce((sum, item) => sum + parseFloat(item.courrenBidPrice.replace('$', '').replace(',', '')), 0);
@@ -41,9 +43,9 @@ const Auctions = () => {
 
         <div className='grid grid-cols-4 gap-7'>
           {/* Left - Auction Table */}
-          <div className='col-span-3 bg-white h-fit p-8 rounded-2xl'>
+          <div className='col-span-3  bg-white h-fit p-8 rounded-2xl'>
             <table className="table w-full">
-              <thead>
+              <thead className='border-2 border-[#000000]'>
                 <tr>
                   <th>Item</th>
                   <th>Current Bid</th>
@@ -65,7 +67,7 @@ const Auctions = () => {
           </div>
 
           {/* Right - Favorites */}
-          <div className='col-span-1 p-5 h-auto bg-white rounded-2xl'>
+          <div className='col-span-1 p-5 h-auto bg-white rounded-2xl '>
             <h1 className='flex justify-center items-center gap-2 text-2xl text-[#0E2954]'>
               <FaRegHeart size={22} /> Favorite Items
             </h1>
@@ -79,7 +81,7 @@ const Auctions = () => {
             ) : (
               <ul className="space-y-3">
                 {favorites.map((item) => (
-                  <li key={item.id} className='flex justify-between items-center text-sm'>
+                  <li key={item.id} className='flex justify-between items-center text-sm border-2 border-[#000000] p-3'>
                     <div className="flex items-center gap-3">
                       <img src={item.image} alt={item.title} className="h-12 w-12 rounded-xl" />
                       <div>
@@ -87,8 +89,8 @@ const Auctions = () => {
                         <p>${item.courrenBidPrice} | Bids: {item.bidsCount}</p>
                       </div>
                     </div>
-                    <button onClick={() => removeFavorite(item.id)} className='text-red-500'>
-                      <FaTrash />
+                    <button onClick={() => removeFavorite(item.id)}>
+                      <CiCircleRemove size={20}/>
                     </button>
                   </li>
                 ))}
